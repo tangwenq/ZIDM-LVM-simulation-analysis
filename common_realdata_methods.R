@@ -4,9 +4,6 @@
 # COMMON MODEL-METHOD LAYER FOR REAL-DATA ANALYSES
 #
 # Shared model fitting and result-saving utilities.
-# Dataset-specific preprocessing/covariates belong in:
-#   01_baxter_analysis.R
-#   02_microbiome_analysis.R
 # ==============================================================================
 
 options(stringsAsFactors = FALSE, timeout = 600)

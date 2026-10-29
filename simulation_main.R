@@ -2220,7 +2220,7 @@ fit_ZIDM_paper <- function(
     Y,
     X = NULL,
     X_theta = NULL,
-    iterations = 10000,
+    iterations = 20000,
     thin = 10,
     burnin_prop = 0.5,
     sigma2_beta_gamma = sqrt(5),

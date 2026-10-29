@@ -1240,7 +1240,7 @@ fit_TMB <- function(
     
     X = X,
     
-    # 关键
+    
     add_intercept = !is.null(X),
     
     k = k,
@@ -1458,7 +1458,7 @@ initialize_fit0 <- function(
       
       X = X,
       
-      # 关键：加入 intercept
+      # intercept
       add_intercept = !is.null(X),
       
       k = 0,
